@@ -18,33 +18,36 @@ Client trips management through <b>REST API</b> by <b>EntityFrameworkCore</b>.<b
 <hr>
 
   API allows you to maintain certain operation and put or update tables in the database e.g:
-
-1. Return a list of trips in descending order on the start date by responding to the
-<p align="center">
-  <b>HTTP GET request to /api/trips</b>
-</p>
-  with the data of the following form:
- <p align="center">
-  <br />
- <img src=https://user-images.githubusercontent.com/74014874/170800426-2f784952-8128-4195-bc94-ec301dea5e91.png
-  >
-</p>
-2. Delete a client's data by responding to the
-<p align="center">
-  <b>HTTP DELETE request to /api/clients/{idClient}</b>
-</p> 
-  API checks client's connections to trips and returns an error if the client has any bindings.
-3. Add a client for the trip by responding to the 
-<p align="center">
-  <b>HTTP POST request to /api/trips/{idTrip}/clients</b>
-</p>
-  with the data of the following form:
-  
-<p align="center">
-  <br />
-  <img src=https://user-images.githubusercontent.com/74014874/170800186-22bff4f2-0356-4bf9-ad0f-259b57d606c5.png
-   >
-</p>
+<ol>
+  <li> 1. Return a list of trips in descending order on the start date by responding to the
+    <p align="center">
+      <b>HTTP GET request to /api/trips</b>
+    </p>
+          with the data of the following form:
+    <p align="center">
+      <br />
+      <img src=https://user-images.githubusercontent.com/74014874/170800426-2f784952-8128-4195-bc94-ec301dea5e91.png
+      >
+    </p>
+  </li>
+  <li> 2. Delete a client's data by responding to the
+    <p align="center">
+      <b>HTTP DELETE request to /api/clients/{idClient}</b>
+    </p> 
+          API checks client's connections to trips and returns an error if the client has any bindings.
+   </li>
+   <li>3. Add a client for the trip by responding to the 
+    <p align="center">
+      <b>HTTP POST request to /api/trips/{idTrip}/clients</b>
+    </p>
+          with the data of the following form:
+    <p align="center">
+      <br />
+       <img src=https://user-images.githubusercontent.com/74014874/170800186-22bff4f2-0356-4bf9-ad0f-259b57d606c5.png
+       >
+    </p>
+   </li>
+ </ol>
 
   **PaymentDate may be null for clients who haven't payed for the trip yet and the RegisteredAt column is equal to the present tense.**
   
