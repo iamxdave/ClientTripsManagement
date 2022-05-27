@@ -21,7 +21,7 @@ Client trips management through <b>REST API</b> by <b>EntityFrameworkCore</b>.<b
 
 1. Return a list of trips in descending order on the start date by responding to the
 <p align="center">
-  <b>HTTP GET request to /api/trips
+  <b>HTTP GET request to /api/trips</b>
 </p>
   with the data of the following form:
  <p align="center">
@@ -31,7 +31,7 @@ Client trips management through <b>REST API</b> by <b>EntityFrameworkCore</b>.<b
 </p>
 2. Delete a client's data by responding to the
 <p align="center">
-  <b>HTTP DELETE request to /api/clients/{idClient}
+  <b>HTTP DELETE request to /api/clients/{idClient}</b>
 </p> 
   API checks client's connections to trips and returns an error if the client has any bindings.
 3. Add a client for the trip by responding to the 
