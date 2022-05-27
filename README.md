@@ -19,7 +19,7 @@ Client trips management through <b>REST API</b> by <b>EntityFrameworkCore</b>.<b
 
   API allows you to maintain certain operation and put or update tables in the database e.g:
 <ol>
-  <li> 1. Return a list of trips in descending order on the start date by responding to the
+  <li> Return a list of trips in descending order on the start date by responding to the
     <p align="center">
       <b>HTTP GET request to /api/trips</b>
     </p>
@@ -30,13 +30,13 @@ Client trips management through <b>REST API</b> by <b>EntityFrameworkCore</b>.<b
       >
     </p>
   </li>
-  <li> 2. Delete a client's data by responding to the
+  <li> Delete a client's data by responding to the
     <p align="center">
       <b>HTTP DELETE request to /api/clients/{idClient}</b>
     </p> 
           API checks client's connections to trips and returns an error if the client has any bindings.
    </li>
-   <li>3. Add a client for the trip by responding to the 
+   <li> Add a client for the trip by responding to the 
     <p align="center">
       <b>HTTP POST request to /api/trips/{idTrip}/clients</b>
     </p>
