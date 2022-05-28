@@ -17,7 +17,7 @@ Client trips management through <b>REST API</b> by <b>EntityFrameworkCore</b>.<b
 
 <hr>
 
-  API allows you to maintain certain operation and put or update tables in the database e.g:
+  <h3>API allows you to maintain certain operation and put or update tables in the database e.g:</h3>
 <ol>
   <li> Return a list of trips in descending order on the start date by responding to the
     <p align="center">
