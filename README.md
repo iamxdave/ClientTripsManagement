@@ -30,12 +30,14 @@ Client trips management through <b>REST API</b> by <b>EntityFrameworkCore</b>.<b
       >
     </p>
   </li>
+  <br>
   <li> Delete a client's data by responding to the
     <p align="center">
       <b>HTTP DELETE request to /api/clients/{idClient}</b>
     </p> 
           API checks client's connections to trips and returns an error if the client has any bindings.
    </li>
+   <br>
    <li> Add a client for the trip by responding to the 
     <p align="center">
       <b>HTTP POST request to /api/trips/{idTrip}/clients</b>
@@ -48,6 +50,7 @@ Client trips management through <b>REST API</b> by <b>EntityFrameworkCore</b>.<b
     </p>
    </li>
  </ol>
+ <br>
 
   **PaymentDate may be null for clients who haven't payed for the trip yet and the RegisteredAt column is equal to the present tense.**
   
