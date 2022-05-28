@@ -1,5 +1,5 @@
 # ClientTripsManagement
-Client trips management through <b>REST API</b> by <b>EntityFrameworkCore</b>.<br>
+Client trips management through <b>dotnet REST API</b> by <b>EntityFrameworkCore</b>.<br>
 <br>
 <b>The application meets the assumptions of SOLID and DI</b>
 
